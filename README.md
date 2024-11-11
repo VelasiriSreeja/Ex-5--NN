@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME : Sreeja v </H3>
-<H3>ENTER YOUR REGISTER NO: 212222230169</H3>
+<H3>NAME: sreeja</H3>
+<H3>REGISTER NO: 212222230169</H3>
 <H3>EX. NO.5</H3>
-<H3>DATE:04.11.24</H3>
+<H3>DATE: 24.10.2024</H3>
 <H1 ALIGN =CENTER>Implementation of XOR  using RBF</H1>
 <H3>Aim:</H3>
 To implement a XOR gate classification using Radial Basis Function  Neural Network.
@@ -35,8 +35,7 @@ Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
 <H3>PROGRAM:</H3>
 
-python
-
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -107,16 +106,11 @@ print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w
 print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
-
-
-
-
+```
 
 <H3>OUTPUT:</H3>
 
-![image](https://github.com/kumudhinithangaselvan/Ex-5--NN/assets/119394027/3654f2f8-0553-4de6-82ef-4d6d81e6c76a)
-
-
+![image](https://github.com/user-attachments/assets/669176e4-d937-42e4-b72d-16c0fa5184f3)
 
 
 <H3>Result:</H3>
